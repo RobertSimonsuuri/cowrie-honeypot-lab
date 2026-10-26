@@ -58,3 +58,28 @@ The first test verified that Cowrie records authentication attempts and commands
    ls
    uname -a
    exit
+
+### Observations
+Cowrie recorded the failed and successful login attempts, source IP address, timestamps, session ID, and commands.
+
+A mistyped command, "uname-a", was also captured before the corrected command. This shows that unsuccessful commands also get captured and can provide useful context.
+
+The shell presented a simulated Linux system. Its hostname and operating system details differed from the underlying Ubuntu host.
+
+## Evidence preservation
+Copies of the initial logs were saved under evidence/test-01/ on Ubuntu inside the lab VM:
+- cowrie.log — readable operational and session log
+- cowrie.json — structured events for filtering and analysis
+These copies preserve the initial test data while the active logs continue collecting new events.
+
+## Current status
+- [x] Install Cowrie
+- [x] Configure an isolated lab network
+- [x] Verify SSH connectivity
+- [x] Record a controlled test session
+- [x] Preserve the initial logs
+- [ ] Record and verify SHA-256 hashes
+- [ ] Investigate additional test scenarios
+- [ ] Add screenshots and reviewed evidence
+- [ ] Produce a session investigation report
+
