@@ -83,3 +83,17 @@ These copies preserve the initial test data while the active logs continue colle
 - [ ] Add screenshots and reviewed evidence
 - [ ] Produce a session investigation report
 
+
+## Screenshots
+
+### Failed and successful SSH login
+
+![Failed and successful SSH login](<Screenshots/First-session/Failed-and-Succesful-SSH-Login.png>)
+
+### Commands entered during the session
+
+![Commands entered during the session](Screenshots/First-session/commands.png)
+
+### Commands captured by Cowrie
+
+![Commands captured by Cowrie](Screenshots/First-session/Detected-commands.png)
