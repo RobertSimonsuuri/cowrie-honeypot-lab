@@ -86,10 +86,6 @@ These copies preserve the initial test data while the active logs continue colle
 
 ## Screenshots
 
-### Failed and successful SSH login
-
-![Failed and successful SSH login](<Screenshots/First-session/Failed-and-Succesful-SSH-Login.png>)
-
 ### Commands entered during the session
 
 ![Commands entered during the session](Screenshots/First-session/commands.png)
